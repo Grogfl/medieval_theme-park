@@ -9,7 +9,8 @@
         <link rel="shortcut icon" type="image/png" href="img/favicon.png">
         <link rel="stylesheet" href="css/style.css">
         <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">      
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet"> 
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
         <title>The Medieval Theme Park | A fun place for all the family!</title>
     </head>
     <body>
@@ -167,30 +168,37 @@
             </section>
 
 
-            <footer>
-                <h3>Useful Links</h3>
-                <div id ="themeParkFooter">
-                    <ul>
-                        <li id = "Plan"><a href="PlanYourTrip.html">Plan Your Trip</a> </li>
-                        <li id = "About"><a href="AboutUs.html">About Us</a> </li>
+           <footer class = "site-footer">
+                <div id="footer-logo"><img src="img/icon.svg"></div>
+                
+                <div id="footer-columnleft" class ="site-footer">
+                    <h3>Website Links</h3>
+                    <div class="table">
+                    <ul id="list">
+                        <li id = "Plan"><a id="footer-btn" href="PlanYourTrip.html">Plan Your Trip</a> </li>
+                        <li id = "About"><a id="footer-btn" href="AboutUs.html">About Us</a> </li>
                     </ul>
+                    </div>
                 </div>
                
+               
+                
+                <div id="footer-columnright">
                     <h3>Our Social Media Links</h3>
                     <!--we have no real links to pages these are just exmaples that go to the home pages of the websites-->
-                    <ul>
-                        <li>
-                            <a href = "https://www.youtube.com/">
-                                <img src="img/YouTube_Logo.png" alt="Theme Park" width="30" height="30">
-                            </a>
-                        </li>
-                        <li>
-                            <a href = "https://www.facebook.com/">
-                                <img src="img/Facebook_Logo.png" alt="Theme Park" width="30" height="30">
-                            </a>
-                        </li>
-                    </ul>
-                
+                        <div class="table">
+                            
+                                 <ul id=list>
+                                    <li><a id="footer-btn" href=""><i class="fa fa-facebook"></i>-Facebook</a></li>
+                                    <li><a id="footer-btn" href=""><i class="fa fa-twitter"></i>-Twitter</a></li>
+                                    <li><a id="footer-btn" href=""><i class="fa fa-instagram"></i> -Instagram</a></li>
+                                    <li><a id="footer-btn" href=""><i class="fa fa-youtube-play"></i> -YouTube</a></li>
+                                    <li><a id="footer-btn" href=""><i class="fa fa-linkedin"></i> -LinkedIn</a></li>
+                                </ul>
+                        </div>
+                    </div>
+               
+
                 </footer>
 
 
